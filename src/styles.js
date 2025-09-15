@@ -1,0 +1,14 @@
+import { createGlobalStyle } from "styled-components";
+
+export default createGlobalStyle`
+    *, body {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #22272e;
+        color: #fff;
+    }
+`;
